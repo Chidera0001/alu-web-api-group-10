@@ -68,3 +68,37 @@ body {
     background-size: cover;
     background-position: center;
    }
+
+   
+/* Responsive Styles */
+@media (max-width: 768px) {}
+/* Adjust styles for tablets */
+header {
+  padding: 10px;
+}
+nav ul li {
+  margin-right: 10px;
+}
+.primary-objective {
+  font-size: large;
+  padding: 10px;
+}
+.member {
+  padding: 5px;
+}
+
+@media (max-width: 480px) {}
+/* Adjust styles for mobile phones */
+header {
+  padding: 5px;
+}
+nav ul li {
+  margin-right: 5px;
+}
+.primary-objective {
+  font-size: medium;
+  padding: 5px; 
+}
+.member {
+  padding: 5px;
+}
